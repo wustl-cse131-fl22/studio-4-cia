@@ -27,26 +27,46 @@ public class NorwayMotherOfAllFlags {
 		StdDraw.setYscale(0, 16);
 		mother();
 	}
+	
 
 	public static void france() {
+		StdDraw.setXscale(0, 22);
+		StdDraw.setYscale(0, 16);
+		StdDraw.clear();
+		StdDraw.setPenColor(255, 0, 0);
+		StdDraw.filledRectangle(11,8,2,4);
 		
-		// TODO
+		StdDraw.setPenColor(0, 0, 127);
+		StdDraw.filledRectangle(0, 8, 3.5, 4);
+		
 	}
 
 	public static void indonesia() {
+		StdDraw.setXscale(0, 22);
+		StdDraw.setYscale(0, 16);
+		StdDraw.clear();
+		StdDraw.setPenColor(255, 0, 0);
+		StdDraw.filledRectangle(11,12,11,4);
 		
-		// TODO
 	}
 
 	public static void netherlands() {
+		StdDraw.setXscale(0, 22);
+		StdDraw.setYscale(0, 16);
+		StdDraw.clear();
+		StdDraw.setPenColor(250, 0, 0);
+		StdDraw.filledRectangle(11,12,11,2);
+		StdDraw.setPenColor(50, 0, 250);
+		StdDraw.filledRectangle(11,3,11,2);
 		
-		// TODO
 	}
 
 	public static void poland() {
-		
-		// TODO
-	}
+		StdDraw.setXscale(0, 22);
+		StdDraw.setYscale(0, 16);
+		StdDraw.clear();
+		StdDraw.setPenColor(255, 0, 0);
+		StdDraw.filledRectangle(11,4,11,4);	}
 
 	public static void thailand() {
 		
